@@ -21,7 +21,7 @@ body {
 .menulinks {
     /*float: right*/
     width: 70%;
-    margin-top: 10PX;
+    margin-top: 10px;
     /*margin-right: 150px;*/
 }
 
@@ -32,8 +32,10 @@ body {
 
 .menulinks li {
     margin-left: 35px;
+    /*padding-right: 10px;*/
     float: left;
     list-style: none;
+    text-align: center;
 }
 
 .logo {
@@ -127,4 +129,9 @@ body {
     letter-spacing: 4px;
     font-weight: normal;
     font-size: 27px;
+}
+
+.menulinks li a:hover {
+    color: hotpink ;
+    /*letter-spacing: 4px;*/
 }
