@@ -8,6 +8,8 @@ body {
 }
 
 .menu {
+    position: fixed;
+    top: 0;
     display: inline-flex;
     margin: 0;
     height: 65px;
